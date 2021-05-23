@@ -8,12 +8,12 @@ Below code throws `IndexOutOfBoundsException` while iterating
 
 Replacing
 ```groovy
-implementation 'androidx.appcompat:appcompat:1.3.0'
+implementation "androidx.fragment:fragment-ktx:1.3.4"
 ```
 
 with
 ```groovy
-implementation 'androidx.appcompat:appcompat:1.2.0'
+implementation "androidx.fragment:fragment-ktx:1.3.3"
 ```
 
 in the `app/build.gradle` eliminates the problem
